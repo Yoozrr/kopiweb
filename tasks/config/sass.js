@@ -1,17 +1,17 @@
 module.exports = function(grunt) {
 
   grunt.config.set('sass', {
-
-    dist: { // Target
-      options: { // Target options
-        style: 'expanded'
-      },
-      files: { // Dictionary of files
-        'assets/styles/main.css': 'assets/styles/main.scss'
+    options: {
+      sourceMap: true,
+      style: 'compressed'
+    },
+    dist: {
+      files: {
+        'assets/linker/styles/main.css': 'assets/linker/styles/main.scss'
       }
     }
 
   });
 
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
 };
