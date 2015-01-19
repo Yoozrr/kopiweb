@@ -21,9 +21,11 @@
 
 module.exports.connections = {
 
+
+  'default': 'mongo',
   mongo: {
-    adapter: 'sails-mongo',
-    url: process.env.DB_URL,
+    module: 'sails-mongo',
+    url: 'mongodb://admin:12345678@ds031571.mongolab.com:31571/heroku_app33302092',
     schema: true
   }
 
