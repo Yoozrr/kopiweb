@@ -29,7 +29,8 @@ module.exports.policies = {
   '*': 'flash',
   user: {
     '*': 'flash',
-    'index': ['isAuthenticated', 'isAdmin']
+    'index': ['isAuthenticated', 'isAdmin'],
+    'order': ['isAuthenticated']
   },
 
   coffee: {
