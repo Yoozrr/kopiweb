@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $('.form-signup').validate({
+  $('.form-register').validate({
     rules: {
       name: {
         required: true
@@ -15,16 +15,17 @@ $(document).ready(function() {
       },
       confirmation: {
         minlength: 6,
+        required: true,
         equalTo: '#password'
       }
     },
 
     success: function(element) {
-      element.text('OK!').addClass('valid');
+      element.addClass('valid');
     }
   });
 
-  $('.form-signin').validate({
+  $('.form-login').validate({
     rules: {
       email: {
         required: true,
@@ -42,22 +43,21 @@ $(document).ready(function() {
   });
 
 
-  $('.form-edit').validate({
-    rules: {
-      name: {
-        required: true
-      },
-      email: {
-        required: true,
-        email: true
-      }
-    },
+  // $('.form-edit').validate({
+  //   rules: {
+  //     name: {
+  //       required: true
+  //     },
+  //     email: {
+  //       required: true,
+  //       email: true
+  //     }
+  //   },
 
-    success: function(element) {
-      element.text('OK!').addClass('valid');
-    }
-  });
-
+  //   success: function(element) {
+  //     element.text('OK!').addClass('valid');
+  //   }
+  // });
   io.socket.on('connect', function() {
     console.log('sockect connect');
 

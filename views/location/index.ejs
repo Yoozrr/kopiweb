@@ -1,0 +1,45 @@
+<ul id="mapdata" class="hide">
+	<% 	_.each(locations, function(location){ 
+	%>
+		<li id="<%= location.id %>" address="<%= location.formatted_address %>" name="<%= location.name %>" lat="<%= location.geometry.location.lat %>" lng="<%= location.geometry.location.lng %>"></li>
+	<% 	})
+	%>
+</ul>
+
+<div class="container locations">
+	<div class="row geolocation">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h2>Location</h2>
+			<h4 class="info"></h4>
+			<h4 class="position hide"></h4>
+			<h4 class="distance hide"></h4>
+
+			<a href="#" class="btn btn-default select-suggested hide">Select this store</a>
+			<a href="#" class="btn btn-primary select-manually hide">Select manually</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div id="gmap">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="selected-coffee open">
+	<h2 class="selected-coffee-name"><%= session.coffee.name %></h2>
+	<h4><span class="selected-coffee-category"><%= session.coffee.category %></span></h4>
+
+	<div class="location-name">
+		
+	</div>
+
+	<form action="/location/select" method="POST" role="form">
+		<input type="hidden" name="id">
+		<input type="hidden" name="name">
+		<input type="hidden" name="address">
+		<button disabled type="submit" class="btn btn-default">Continue</button>
+		<input type="hidden" name="_csrf" value="<%= _csrf %>"/>
+	</form>
+</div>

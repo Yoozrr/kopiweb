@@ -1,0 +1,69 @@
+<div class="container coffees">
+	
+		
+
+<% 	_.each(coffees, function(coffee){ 
+%>
+
+		<div class="row flex-wrap categories">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1><%= coffee.category %></h1>
+				<h4>Please select the drink you want to order.</h4>
+			</div>
+	<% 	_.each(coffee.list, function(val){ 
+			var data = {
+				id: val.id,
+				name: val.name,
+				price: val.price,
+				category: val.category
+			}
+	%>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 ">
+				<div class="coffee" id="<%= val.id %>" data="<%= JSON.stringify(data) %>">
+					<div class="media">
+						<div class="media-circle pull-left"><small>MYR</small><span><%= val.price %></span></div>
+						<div class="media-body">
+							<h2 class="media-heading"><%= val.name %></h2>
+							<h4><%= val.category %></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+	<% 	});
+	%>
+		</div>
+<% 	});
+%>
+	
+</div>
+<% 	if (session.coffee){ 
+%>
+		<div class="selected-coffee open">
+			<h2 class="selected-coffee-name"><%= session.coffee.name %></h2>
+			<h4><span class="selected-coffee-category"><%= session.coffee.category %></span></h4>
+			<form action="/coffee/select" method="POST" role="form">
+				<input type="hidden" name="id" value="<%= session.coffee.id %>">
+				<input type="hidden" name="name" value="<%= session.coffee.name %>">
+				<input type="hidden" name="price" value="<%= session.coffee.price %>">
+				<input type="hidden" name="category" value="<%= session.coffee.category %>">
+				<button type="submit" class="btn btn-default">Continue</button>
+				<input type="hidden" name="_csrf" value="<%= _csrf %>"/>
+			</form>
+		</div>
+<% 	} else {
+%>
+		<div class="selected-coffee">
+			<h2 class="selected-coffee-name"></h2>
+			<h4><span class="selected-coffee-category"></span></h4>
+			<form action="/coffee/select" method="POST" role="form">
+				<input type="hidden" name="id">
+				<input type="hidden" name="name">
+				<input type="hidden" name="price">
+				<input type="hidden" name="category">
+				<button type="submit" class="btn btn-default">Continue</button>
+				<input type="hidden" name="_csrf" value="<%= _csrf %>"/>
+			</form>
+		</div>
+<%	}
+%>
+			

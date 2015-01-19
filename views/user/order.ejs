@@ -1,0 +1,39 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1>Your order(s)</h1>
+	<% 	if(orders.length > 0) {
+	%>
+			<h4>You have ordered <%= orders.length %> coffee<%= (orders.length === 1) ? '' : 's' %>.</h4>
+			<table class="table">
+				<tr>
+					<th>Coffee</th>
+					<th>Type</th>
+					<th>Store</th>
+					<th>Adress</th>
+					<th>Status</th>
+				</tr>
+		<% 	_.each(orders, function(order){
+		%>
+				<tr>
+					<td><%= order.coffee.name %></td>
+					<td><%= order.coffee.category %></td>
+					<td><%= order.location.name %></td>
+					<td><%= order.location.address %></td>
+					<td><%= order.status  %></td>
+				</tr>
+		<%	}) 
+		%>
+			</table>
+
+			<a href="/coffee" class="btn btn-default">Order more coffee</a>
+	<%	} else { 
+	%>
+			<p>You have not order any coffee. Order you first coffee now!</p>
+			<a href="/coffee" class="btn btn-default">Order coffee</a>
+	<%	}
+	%>
+			
+		</div>
+	</div>
+</div>

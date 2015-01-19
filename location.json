@@ -1,0 +1,297 @@
+{
+  "formatted_address": "Jalan Anggerik Vanilla 31/93, Kota Kemuning, 40460 Shah Alam, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.003213,
+      "lng": 101.541283
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+  "id": "4aba7b2ac77ff8a9b41db997dd2fb05967c3bb88",
+  "name": "Starbucks",
+  "place_id": "ChIJwYeMiI6yzTERpsrVi9QN_mI",
+  "reference": "CnRrAAAAjz3d1NtcdiSMHtW0idpw0jIf4AEWtiZrutv6AiJC0YeKpt1VjDuScp1TsK0fXWWusFCSeOSx0JiStXWXZ3ILG25SzaBTTPE5xHRwbtoB9qFoedlMNFxEPpB_x7i4E3VP41dclK2J5piJqb7-Up0YxBIQfcaItO0B_g8U_rY0Aj1EURoUuiHOB6MYj1obqshFXLnJkOBkadY",
+  "types": ["restaurant", "food", "establishment"]
+}, {
+  "formatted_address": "G28, Empire Shopping Gallery, Jalan SS 16/1, Selangor, 47500 Subang Jaya, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.081016,
+      "lng": 101.581003
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "b3b87690bc23c3d72df65dab808ac44a19a60a20",
+  "name": "Starbucks Coffee @ Empire Gallery Subang",
+  "place_id": "ChIJ45SQhVBMzDERl13lcxSGnCQ",
+  "price_level": 2,
+  "reference": "CpQBigAAAEOTk9jZOHHKlUQVMjqSXoQzo_Dry5BT3bBzCznIy4QLB_26q1XAfLWj_lDkva-tx_PSh5gI8Fid76FRpMprVyvW1akPDGyx-MaTHMgRWPlAwLkBK4aKEqe7apX2w3AeE8bHKXJ37tXYqc2jH9IvTXYXJXQNpQK0Fa8p7rzOzmWJorgsvrRHPjs68Pyj6W9XyhIQx3BhAbNmlqyEuXU5iIsjpxoUbPbMSotXNVPlC_n8Wuk7ojYQXOk",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "Subang Jaya Shopping Complex, G15J, Ground Floor, Jalan Ss16/1, SS16, Selangor, 47500 Petaling Jaya, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.081729,
+      "lng": 101.583353
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "12b9c6ba6c27d68cec0ad773019ec71c305207b3",
+  "name": "Berjaya Starbucks Coffee Company Sdn. Bhd.",
+  "place_id": "ChIJbV_081pMzDEReoNaVaX4A1I",
+  "price_level": 2,
+  "reference": "CpQBjAAAAKmtzBgM5HoiIQY3y_fplGHUL-0mFYhKJMke6I23goOwHvxekcfP7lOR7cQXq50ysueMpeKyefvbiIk_mUCAU4LNEXChPsfoyIN5bjivpkuESBH8NlruQlRkVFCZvi6uhw_FfepzB1BtE-cCAW3jROWON8pMzE_PZ3ddUN3h4CMX_EDW8QAll0h5GlEGt8bItBIQCk8uqNj9ssJvNHrGQnUW2hoU7rUPzoHIbsCzfHBHRysW2UI8XAk",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "Sunway Monash Residence (Link Bridge), Sunway South Quay, Bandar Sunway, 47500, Subang Jaya, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.061866,
+      "lng": 101.609292
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+  "id": "d0d0c31550c4065bd9f34f6c78b97f67b3498f1d",
+  "name": "Starbucks Coffee @ Sunway Monash Residence",
+  "place_id": "ChIJDbCUcJtMzDERJcisGSMGlek",
+  "reference": "CpQBjQAAAOqmMUplD1rU-eSiquMDeCeKqFFjyopWcpxBBsDAs4Or4Z4vGod36hzu7TEUdK3Hi3NWMmfnILx02QVw49rpwQtRPMTmJ2nfec1zrcpnJPqPGbLqMezmQk_pJgcYj74gz6Wp8LXYK5B_P6crMZNPwQwFQNtrn6O4hrmCoW8noXf2a3t_g3P1PGkS0p1hZN5fpBIQuBcOvmdpdx2q0ht3ljx-3xoU7mCb7ggXnhXvdOQfQoDyU9kcF1I",
+  "types": ["establishment"]
+}, {
+  "formatted_address": "Sunway Pyramid Shopping Mall, Lot LG 1.110 Lower Ground One, Jalan Pjs 11/15, Selangor, 46150 Bandar Sunway Petaling Jaya, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.072567,
+      "lng": 101.607083
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+  "id": "10cbebfc71102e16790544e9477300299b884247",
+  "name": "Berjaya Starbucks Coffee Company Sdn Bhd (462026-H)",
+  "place_id": "ChIJydyDn4dMzDERhB6bXyVGG0g",
+  "price_level": 2,
+  "reference": "CqQBlgAAAMFSN-4s5GUaU_e59i9Nx9Ei6exxQ5P60JoVEFR9gp73vZE-V_2ag9b35oW2Ur91ltFbsXbuL702j7-Y9epztUw1vHmp4NxTk2DKbegzHl2OMxtKlrbkhx-QAvTC8czkokuGd1XjnPvLNHx1M0Aspit6ubfXftwd6phZ3CQdzwgUiksLqSmSoBmHNxEk0wOVm1H_xReAvbHj5uCerK_jWqkSEIIJor8x17MTj-sWsngteTMaFKuybm8yhtHO_EA9xWwqNsc0Yt92",
+  "types": ["restaurant", "food", "establishment"]
+}, {
+  "formatted_address": "Block C-C1-C2, Level 1, Jalan Beringin, Pusat Bandar Damansara, 50490, Kuala Lumpur, WP Kuala Lumpur, 50490, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.155782,
+      "lng": 101.653081
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+  "id": "18e6130ac3f8ac38cb770b6943188506df90bb22",
+  "name": "Starbucks Coffee -Damansara Town Centre-",
+  "place_id": "ChIJM1OcxvhIzDERaW54wTb_V4U",
+  "price_level": 2,
+  "reference": "CpQBiwAAAM76Y0P-gxpx5RJ9pplYxbjDh8tweXHveB-ijuaLEctRPV5IEUQSNbArRIcIe4ttKQr34ELC_eqpL-mBzs2Ybld3tP2eJQQvI2ogQTeIkJNowFlY_KavAHErpfuuZnJAnvDIZ1CloTM47aryLEGZ0O4EBDZLUhGcxC7aJCnC-GMSUz8_w34N8K--b4dYsgjRoBIQVYGcEdqFSy74Ts8YFbd25RoU2zVvOR9PSCYkSbzxlMKYB58ONSY",
+  "types": ["establishment"]
+}, {
+  "formatted_address": "Lot Suite B, OG-01-02, Plaza Mont' Kiara, No. 2, Jalan 1/70C, Mont' Kiara, 50480, Kuala Lumpur, WP Kuala Lumpur, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.165287,
+      "lng": 101.651851
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+  "id": "58cf14b487294d48b997651180d4e24b2743ae0d",
+  "name": "Starbucks Coffee -Plaza Mont' Kiara-",
+  "place_id": "ChIJ2enHQC1JzDERydsjErYk9uc",
+  "price_level": 2,
+  "reference": "CpQBhwAAAN2DIuhrdX6f8osdrFMc2QQahlacqu9ANMpHvvtonkEXr9wTdtR1AxBKaPOzyJuxbx_BC3xIu53EtaadpHHtEyXi-mJ4hYjQwS6-huSPj8GMavDbjjQl-DHdvDDhbdyzExTOJ5hV22kgHkTCGUoh1xHPTsUSxOqyA2Gf7WfwNVMXjXtkmRdPX18_JZ9tAQw1DhIQrXDWSgQW4UYr78MJK41c1hoUFThJaFs6nlQMCxPAqfiM4NR2G6E",
+  "types": ["establishment"]
+}, {
+  "formatted_address": "Part of Ground Floor, Pantai Medical Centre, 8, Jalan Bukit Pantai, 59100, Kuala Lumpur, Wilayah Persekutuan, 59100, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.123853,
+      "lng": 101.66714
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+  "id": "47b9da8d46a27fec429b3d07ce0ef4af52973d50",
+  "name": "Starbucks @ Pantai Medical Centre",
+  "place_id": "ChIJc1gc8KJJzDERE4O9414F4SI",
+  "reference": "CpQBgwAAAGz0FoKt2bauhF6tNs-eP2BohpbuzJO4zrMauKRMYZMYs_VPNQE-BiZB8mJlmN_PQvSve-n14GH1IYUE8ceKhwH9YtQjiVjs4J0w9gMK5_AcWhmRwnkTfFxryiXC5y9F47Wl0EbICnE0xJINGlQn0hVJbi14E1-5TdlviSAIcyApsExpXVdHErslDHMS0kHAWBIQNk4lDXMhKDJ51zxycNTlyhoUzHmsmGQVOaYjRvguICqpy5Ud4CY",
+  "types": ["establishment"]
+}, {
+  "formatted_address": "Bandar Utama Lot G109 & G110, Ground Floor, Centrepoint Bandar Utama, Lebuh Bandar Utama, Petaling Jaya, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.137831,
+      "lng": 101.610231
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "ae9985572e03638047e669d1e95e47b2f9b999aa",
+  "name": "Starbucks Coffee",
+  "place_id": "ChIJLxqtAcxOzDERO_3_IUVQaUI",
+  "price_level": 2,
+  "reference": "CoQBcgAAAETtbu0wb3yAuBkO4y5kA9X2XXmi99oV8iCCz_JY0JJ2EOYRe12wDqq1RMCz2isDZEq6oiWS5t_CWr_SMQu9PaLBdWTvvmrNxBUmkMxJYg7CsQqBA1f2VBDr7_0rZE6-fso7qbzcQNYzxkr3zFPWbJz0a7NZMJW-a2AKmDe9YuAiEhB36dW-KmjWRR2J2XQOn7FvGhSHEp2EspzuPbtAyS1qTY9GvnyM3Q",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "No. 79, GF, Jalan Ss15/8a, SS15, Selangor, 47500 Petaling Jaya, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.074384,
+      "lng": 101.588912
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "a9428aa1041cd8db9b89718d439661305aab3ebe",
+  "name": "Berjaya Starbucks Coffee Company Sdn. Bhd.",
+  "place_id": "ChIJtZcbZ19MzDERYect3CvWk_A",
+  "reference": "CpQBjQAAAAlYpwIQd3QBDn_s5lz-R_wQ3lj8twz0_OotCVmfpgF1RRB_l2FHIcpJHKe8-0mlgCsfSWpr5nxIY7Yh4OhWW8bAyuUK0ttYvbWK89Gt2BuMvnmB5PgW443xqTpN7nWc3G4LP53TRAAGP0NGtKX2rL9xvnotlXgRtvX4wDzfoamcIhElTSHJdKLsB8qyNO0qyhIQDUfqCWohmdDrqeDfD5rC4BoUO-oR6ks1GZemMGhdDEQv-lOmBFY",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "Ground Floor, No. 79, Jalan SS 15/8a, Ss 15, 47500 Subang Jaya, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.074122,
+      "lng": 101.59048
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "a5cd2714a9f9c498c4ccc5e65ce49d7d50ca8b6f",
+  "name": "Starbucks Coffee",
+  "opening_hours": {
+    "open_now": true,
+    "weekday_text": []
+  },
+  "place_id": "ChIJh-UmgV9MzDER5DbIS80AdvI",
+  "reference": "CoQBcwAAABGmMrYnkZXSdHwSiYO0U4nTA272jpv6Ec9N1a9khudLOOPgTukWhiqsBdT074E58tereHSpXB_UaLUlPkSzTebH1OZLKvj9R5gS3q1lGn_wYBjoDVVI8punU_sh8Mj2qZmeyrngd1Uw_HpeX92DD9dN_JrS_aFC2gC00mKGv1z6EhAjPE2CEdd3zMD7rhBh07TqGhTYqEpDNBT-p0TzHBbxd1NDTf7P2A",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "Persiaran SS 13/1k, Usj 1, 47600 Subang Jaya, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.06006,
+      "lng": 101.592942
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "295c653eaf8013611a5e1ab9ad8086253ae130b9",
+  "name": "Starbucks Coffee The Summit",
+  "place_id": "ChIJB2RCs-xMzDER6UrDPK3omoI",
+  "reference": "CoQBfgAAAKjDOhEkMRgyrsTmeXxwOOrH_Yc8IiqalmHLQ-Mm4dz8ktQubibz2y03L8Fis3z2mY9ORhy2Jmn5KUa8MBDQ3XhRltWoQnxfc6B9E79de6bSNPjYX8MeaismHcONaeo7YJ4rxRyt5NWoaDhLPsW3w1lbQ2hpGAK58iu5fWgMRs7tEhDVs8UMCUmGnMti-NPsc53dGhQSRCQ3O1zBiRuVhgGSjHusqyvSkg",
+  "types": ["cafe", "restaurant", "food", "establishment"]
+}, {
+  "formatted_address": "IPC Shopping Centre Ground Floor, Lot G22 No.2, Jalan PJU 7/2 Mutiara Damansara, Selangor Darul Ehsan, 47800 Petaling Jaya, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.161598,
+      "lng": 101.607686
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+  "id": "edb9a655b5c56ddab4c84cddeede40fe85eab61b",
+  "name": "Starbucks Coffee",
+  "place_id": "ChIJrw6WMS5PzDERoRUujAncRJE",
+  "price_level": 2,
+  "reference": "CoQBcwAAAOnkWqIVe7Ab3y4vYqlzu23uP_HxUQkxl9WyFbDzax5jSxPxR_2Yf23fQjY1Lzthi1da33GMSCsr-m6jh9Gj0dwMx-D14Fy-DgrqB8XsUBC3eVgqMu7yZ-8wcJShAwwg31AxPkAinDMpo9xt1GfE-ViIm1IQa_JNmhh8U67ku6bNEhDHuv0rbt0OYgAtBQToM2HVGhT4jnud0-vxQkBTVXwEG8eaRrDz7w",
+  "types": ["restaurant", "food", "establishment"]
+}, {
+  "formatted_address": "LG1. 110, Sunway Pyramid, 3, Jalan PJS 11/15, Bandar Sunway, 46150 Petaling Jaya, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.071807,
+      "lng": 101.60635
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "5e122b9de823d66bb773390156518287a3bd7c96",
+  "name": "Starbucks Coffee Company Sdn Bhd",
+  "opening_hours": {
+    "open_now": true,
+    "weekday_text": []
+  },
+  "place_id": "ChIJP8n4sIdMzDERaZO6CFDzXII",
+  "reference": "CpQBgwAAAKc6Sj9NqgUH4PLNvDCHfu7vnnGSkbqP_jmaTpPeuzx427YjyUPVUQOVamwsD6CFyPmJKXK5QA6t1obNhS7LwU4ewLcTwx1TXpjiaihrUNf4tPoHe79sHGsxpS6ndT_eLaMVFuQBakNlPYmc05z6bElWv_wyNJL0gW8ZFnhCj2jdg42hOss6F8fY2TmkTTv_JRIQ0mJI_QkyMws8N4wha4HSchoUD6rMu_pvXjWDGQPwwmdGrGMLYJE",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "5, Jalan Lagoon Selatan, Bandar Sunway, 47500 Subang Jaya, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.06626,
+      "lng": 101.6091
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "7ba78b45ed6e5251635021b0d1fdeb6bb81db5a3",
+  "name": "Starbucks Coffee Sunway Medical Ctr",
+  "place_id": "ChIJMS_DjYRMzDERW89qn5zSpMw",
+  "reference": "CpQBhgAAAI3KVS062AigGWpN9_OQL9yjbgbmHfczqoabDlvN735dngYA9xkWER-2QQtYsMEt2BssMlsmV8N-AkECYwX7B_dITYZ9eCP3UB_72dq54rp0P0xmbWDuaXDwYbY3UX_DoJ4KW0MPVQbGwn6E0IuwoI9EhFWRPyxrAw3l0Px81CdxaEh4heO239MU2vPPg9P1yxIQdoB0qY-FqYw0NFk3SVJ3ARoUnOeDV-cr3JwSc_U1GGqLi2Ndy_c",
+  "types": ["cafe", "restaurant", "food", "establishment"]
+}, {
+  "formatted_address": "60, Jalan Sri Hartamas 1, Sri Hartamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.163689,
+      "lng": 101.65667
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "2ef1179fa6a2e364204a763dd8cb3b65941c7180",
+  "name": "Starbucks Coffee Hartamas Shopping Centre",
+  "place_id": "ChIJQdVhI_dIzDERkUitgu5Aw2Q",
+  "reference": "CpQBiwAAAGNRnMcyH40orvQ7dpUJHIN3Ykd0-v1tAmbf0jqrjUJnvNbsgwqDS8ApGdSkcmjCMpe5-KTY4HscicwcUosbBlIY6nC6Ppcvl--PDO87OIYSXD3jk9X1ysioSoqSYlgqptPkoLBPhWCzBYtZ28zBkorg-ECMs4G9neEea_0_OK2jV3UDIVAFh-Zo7UwbbuFggxIQnclEeAVsP9DwXuV5V9nixxoUbPlvHswZFUeq0_t8ZIaSN5JVDek",
+  "types": ["cafe", "restaurant", "food", "establishment"]
+}, {
+  "formatted_address": "Level 1, Block C (South), Jalan Damanlela, Pusat Bandar Damansara, Damansara Heights, 50490 Kuala Lumpur, 50490, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.1477,
+      "lng": 101.66275
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "d3510109b0483bf79e76b2d583a3b57f1efd733f",
+  "name": "Starbucks Coffee",
+  "place_id": "ChIJNwCDPapJzDER5ftqhbodkEg",
+  "price_level": 2,
+  "reference": "CoQBcgAAAJiJ_rmocrFfTLZzfVPnJuowt15xUW6RXLxvOsOEPMA5bbsduiWQONfpyeIXIxcyFaUjPQSC1hqfKIHvxGvRxhwYuXYzfToaNAPgbFZZb0iZaEJ1p2DKRwoEja35qJQIMjL7LBUSMW2M4FJNhLXIU83QoCz2Sf-6xF9rQOctkO8_EhCtI9FwiSIudl_656IUF5w2GhT3_FQtr-avc-974PBHUtss5U3gbA",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "Terminal 3, Jalan Lapangan Terbang Subang, Selangor, 47200 Subang, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.127423,
+      "lng": 101.557737
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "4c40b85592fbc4418190a3c4175ea871f08c2341",
+  "name": "Berjaya Starbucks Coffee Company Sdn. Bhd.",
+  "place_id": "ChIJ_24-QW9OzDERGBFgpHRm-JM",
+  "reference": "CpQBjQAAADh7PZrXzn16aLR1poyb8GbblrNehBMFgVnOUNEUWwcStjO7gNTe3eHoxkWFhFkIDdP_wLU3w_mVjCBPTWMbZne670--JAdJ1FsL-jpijxiYpWIA3qryo3VF1AtbZLj5lhF0Ab5GEdU1ODDD8frR3U-CNTCDx7Px7E6Nv6zuenwV3cQXNw8zkUZOSNRyxju0OBIQCjwaDLi1wbJtWWg2efDdxhoU-ArsMABCsbHH1lntxzXxVN3PNLE",
+  "types": ["cafe", "food", "establishment"]
+}, {
+  "formatted_address": "SetiaWalk, Persiaran Wawasan, Pusat Bandar Puchong, 47160 Puchong, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.031551,
+      "lng": 101.617366
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+  "id": "bdf5d1382cef830007fd47eb6035be2f00277022",
+  "name": "Starbucks Coffee",
+  "place_id": "ChIJ41fMXaq0zTERIMnuWjJY358",
+  "reference": "CoQBcwAAADUNtFnp1_onuhih4LYXy2PMtFgZxxbUo2jZhBh3vWd_SPDUEh6gvKBFcUStW99tpGl9OYjjnBJsswpDdgljDEDKhgKpiJmCBU9DI5KeA9SGG6GpcvayynvRV_HxadIdccGRXnlpGodlq4yFJZUGP0Ef-pAS6UoMtB5LLF0H1vzzEhCeEW-dgiTQN8RNCXKLDTq6GhRcHVqEEqSTALy5I3C71VGxSKLjxQ",
+  "types": ["establishment"]
+}, {
+  "formatted_address": "Lot G12;;G13, Jalan Subang Airport, Lapangan Terbang Sultan Abdul Aziz Shah, 47200 Subang, Selangor, Malaysia",
+  "geometry": {
+    "location": {
+      "lat": 3.133042,
+      "lng": 101.553663
+    }
+  },
+  "icon": "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+  "id": "5c2f04e8c2d9df0f5202d80fc0653e2c394137e6",
+  "name": "Starbucks Coffee Subang Skypark",
+  "place_id": "ChIJM6On-2lOzDER_8BWVt8XqVE",
+  "reference": "CpQBgQAAAACQDGkVoJZqLCIIIGb8se0CHFk7LrwtLBebKzCLs1dXRpVVgNOvEzJilObO-TvsSDXnRWZuik3RYtz8ysIg_KV-iexgzuzfF7hK2gdSdbWG0aZA14hp1CMyFsvPNoj-_wKf846SiIDbXUbf1tyezoC3bntOspXiWWLz2z-6pJdwFd9u2CQRyqzre3YfyYYoGhIQk0IDRX1bArYaJw8Mhf0EGxoU9wjxBxskVNc7VMofyEgrVVWG564",
+  "types": ["cafe", "restaurant", "food", "establishment"]
+}

@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1>Order confirmation</h1>
+			<h4>Please verify your order before you click continue</h4>
+		</div>
+	</div>
+	<hr>
+	<div class="row flex-wrap">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<h1>Selected Coffee</h1>
+			<h2><%= session.coffee.name %></h2>
+			<h4><%= session.coffee.category%></h4>
+
+			<a href="/coffee" class="btn btn-primary mt">Change coffee</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<h1>Selected Location</h1>
+			<h2><%= session.location.name %></h2>
+			<h4><%= session.location.address%></h4>
+
+			<a href="/location" class="btn btn-primary mt">Change location</a>
+		</div>
+	</div>
+	<br>
+	<hr>
+	<a href="/order/create" class="btn btn-default">Continue</a>
+</div>
