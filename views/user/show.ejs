@@ -1,10 +1,10 @@
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<h1>View Orders</h1>
+			<h1>View orders</h1>
 	<% 	if(orders.length > 0) {
 	%>
-			<h4>You have ordered <%= orders.length %> coffee<%= (orders.length === 1) ? '' : 's' %>.</h4>
+			<h4><%= user.name %> has ordered <%= orders.length %> coffee<%= (orders.length === 1) ? '' : 's' %>.</h4>
 			<table class="table">
 				<tr>
 					<th>Coffee</th>
@@ -21,14 +21,26 @@
 						<p><b><%= order.location.name %></b><p>
 						<p><small><%= order.location.address %></small><p>
 					</td>
-					<td><%= order.status  %></td>
+					<td>
+						<select name="order-status" order-id="<%= order.id %>" class="form-control">
+					<% 	_.each(status, function(name){
+							if (name === order.status){
+					%>
+								<option value="<%= name %>" selected><%= name %></option>
+					<%		} else {
+					%>
+								<option value="<%= name %>"><%= name %></option>
+					<%		}
+						});
+					%>
+						</select></td>
 				</tr>
 		<%	}) 
 		%>
 			</table>
 	<%	} else { 
 	%>
-			<p>There is currently no order for now.</p>
+			<p>User had not placed any order</p>
 	<%	}
 	%>
 			

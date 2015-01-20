@@ -7,7 +7,13 @@
 
 module.exports = {
   index: function(req, res) {
-    res.view();
+    User.find(function found(err, users) {
+      if (err) return next(err);
+      res.view({
+        users: users
+      });
+    });
+
   },
   login: function(req, res) {
     res.view();
@@ -131,7 +137,27 @@ module.exports = {
         orders: orders
       });
     });
+  },
+  show: function(req, res) {
 
-
-  }
+    Order.find({
+      where: {
+        'user.id': req.param('id')
+      }
+    }, function(err, orders) {
+      User.findOne(req.param('id'), function(err, user) {
+        var status = [
+          'Submitted',
+          'Received',
+          'Completed',
+          'Canceled'
+        ];
+        res.view({
+          orders: orders,
+          user: user,
+          status: status
+        });
+      });
+    });
+  },
 };

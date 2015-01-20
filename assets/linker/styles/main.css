@@ -237,6 +237,8 @@ table.table {
     font-family: 'Crete Round', serif; }
   table.table td {
     color: white; }
+    table.table td small {
+      color: #777; }
 
 .btn.mt {
   margin-top: 35px; }

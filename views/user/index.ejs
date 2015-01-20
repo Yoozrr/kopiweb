@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1>View users</h1>
+			<table class="table">
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Admin</th>
+					<th>Has Order</th>
+					<th>Action</th>
+				</tr>
+		<%	_.each(users, function(user){ 
+		%>
+				<tr>
+					<td><%= user.name %></td>
+					<td><%= user.email %></td>
+					<td>
+				<% if (user.admin === true) { 
+				%>
+						<i class="glyphicon glyphicon-ok"></i>
+				<%	} else {
+				%>
+						<i class="glyphicon glyphicon-remove"></i>
+				<%	}
+				%>
+					</td>
+					<td>
+				<% if (user.hasOrdered === true) { 
+				%>
+						<i class="glyphicon glyphicon-ok"></i>
+				<%	} else {
+				%>
+						<i class="glyphicon glyphicon-remove"></i>
+				<%	}
+				%>
+					<td>
+				<% if (user.hasOrdered === true) { 
+				%>
+						<a href="/user/show/<%= user.id %>" class="btn btn-success">Check orders</a>
+				<%	} else {
+				%>
+						<a disabled class="btn btn-success">Check orders</a>
+				<%	}
+				%>
+						
+					</td>
+				</tr>
+		<%	});
+		%>
+			</table>
+		</div>
+	</div>
+</div>

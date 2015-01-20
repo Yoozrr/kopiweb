@@ -10,7 +10,8 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Crete+Round:400italic' rel='stylesheet' type='text/css'>
     <!--STYLES-->
-    <link rel="stylesheet" href="/min/production.min.css">
+    <link rel="stylesheet" href="/linker/styles/bootstrap.css">
+    <link rel="stylesheet" href="/linker/styles/main.css">
     <!--STYLES END-->
   </head>
 
@@ -31,6 +32,12 @@
     <%  if (session.user.hasOrdered) { 
     %>
             <li><a href="/user/order">Your order</a></li>
+    <%  } 
+    %>
+    <%  if (session.user.admin) { 
+    %>
+            <li><a href="/order">View orders</a></li>
+            <li><a href="/user">View users</a></li>
     <%  } 
     %>
             <li><a href="/user/logout">Logout</a></li>
@@ -57,7 +64,13 @@
 
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <!--SCRIPTS-->
-    <script src="/min/production.min.js"></script>
+    <script src="/linker/js/dependencies/sails.io.js"></script>
+    <script src="/linker/js/dependencies/jquery.js"></script>
+    <script src="/linker/js/dependencies/bootstrap.js"></script>
+    <script src="/linker/js/dependencies/jquery.validate.js"></script>
+    <script src="/linker/js/gmaps.js"></script>
+    <script src="/linker/js/main.js"></script>
+    <script src="/linker/js/validation.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>

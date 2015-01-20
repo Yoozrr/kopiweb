@@ -184,4 +184,17 @@
     }
   }
 
+  $('select[name="order-status"').change(function(val) {
+    console.log(this.value);
+    var url = "/order/update/" + $(this).attr('order-id');
+    console.log(this);
+    console.log(url);
+    $.post(url, {
+      status: this.value
+    })
+      .done(function(data) {
+        alert("updated");
+      });
+  })
+
 })();

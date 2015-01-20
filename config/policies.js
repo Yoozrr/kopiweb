@@ -30,11 +30,12 @@ module.exports.policies = {
   user: {
     '*': 'flash',
     'index': ['isAuthenticated', 'isAdmin'],
-    'order': ['isAuthenticated']
+    'order': ['isAuthenticated'],
+    'show': ['isAuthenticated']
   },
 
   coffee: {
-    'index': ['isAuthenticated']
+    'index': ['isAuthenticated', 'isAdmin']
   },
 
   location: {

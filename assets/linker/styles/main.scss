@@ -304,6 +304,11 @@ table.table {
   }
   td {
     color: white;
+    small {
+      color: #777;
+    }
+    // vertical-align: middle !important;
+ 
   }
 }
 
