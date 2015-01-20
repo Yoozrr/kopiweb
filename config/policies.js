@@ -35,7 +35,7 @@ module.exports.policies = {
   },
 
   coffee: {
-    'index': ['isAuthenticated', 'isAdmin']
+    'index': ['isAuthenticated']
   },
 
   location: {
