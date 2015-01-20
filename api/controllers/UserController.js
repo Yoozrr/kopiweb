@@ -128,6 +128,8 @@ module.exports = {
 
   order: function(req, res) {
     console.log(req.session.user);
+    delete req.session.coffee;
+    delete req.session.location;
     Order.find({
       where: {
         'user.id': req.session.user.id
@@ -138,6 +140,7 @@ module.exports = {
       });
     });
   },
+
   show: function(req, res) {
 
     Order.find({

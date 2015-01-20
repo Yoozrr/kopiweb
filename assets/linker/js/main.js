@@ -184,7 +184,9 @@
     }
   }
 
-  $('select[name="order-status"').change(function(val) {
+  $('select[name="order-status"').change(onChangeStatus);
+
+  function onChangeStatus(val) {
 
     var url = "/order/update/" + $(this).attr('order-id');
 
@@ -206,7 +208,7 @@
       console.log(data)
       col.find('p').remove();
     });
-  });
+  }
 
   io.socket.on('connect', function() {
     console.log('sockect connect');
@@ -214,6 +216,33 @@
     io.socket.on('message', function(msg) {
       console.log(msg)
       $('td[order-id="' + msg.id + '"]').text(msg.status);
-    })
+    });
+    io.socket.on('order-made', function(order) {
+      console.log(order);
+      if ($('.admin-order').length > 0) {
+        var tr = $('<tr></tr>');
+        tr.append('<td>' + order.order.user.name + '</td>');
+        tr.append('<td><p><b>' + order.order.coffee.name + '</b></p><p><small>' + order.order.coffee.category + '</small></p></td>');
+        tr.append('<td><p><b>' + order.order.location.name + '</b></p><p><small>' + order.order.location.address + '</small></p></td>');
+        tr.append('<td><select name="order-status" order-id="' + order.order.id + '" class="form-control"><option value="Submitted" selected>Submitted</option><option value="Received" >Received</option><option value="Completed" >Completed</option><option value="Canceled" >Canceled</option></select>');
+
+        $('.admin-order').append(tr);
+
+        $('.admin-order tr:last-child select').change(onChangeStatus);
+
+
+      }
+
+      if ($('.admin-order-show') && $('.admin-order-show').attr('user-id') == order.order.user.id) {
+        var tr = $('<tr></tr>');
+        tr.append('<td><p><b>' + order.order.coffee.name + '</b></p><p><small>' + order.order.coffee.category + '</small></p></td>');
+        tr.append('<td><p><b>' + order.order.location.name + '</b></p><p><small>' + order.order.location.address + '</small></p></td>');
+        tr.append('<td><select name="order-status" order-id="' + order.order.id + '" class="form-control"><option value="Submitted" selected>Submitted</option><option value="Received" >Received</option><option value="Completed" >Completed</option><option value="Canceled" >Canceled</option></select>');
+
+        $('.admin-order-show').append(tr);
+
+        $('.admin-order-show tr:last-child select').change(onChangeStatus);
+      }
+    });
   });
 })();

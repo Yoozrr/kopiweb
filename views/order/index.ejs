@@ -4,8 +4,8 @@
 			<h1>View Orders</h1>
 	<% 	if(orders.length > 0) {
 	%>
-			<h4>You have ordered <%= orders.length %> coffee<%= (orders.length === 1) ? '' : 's' %>.</h4>
-			<table class="table">
+			<h4>There <%= (orders.length === 1) ? 'is' : 'are' %> <%= orders.length %> order<%= (orders.length === 1) ? '' : 's' %>.</h4>
+			<table class="table admin-order">
 				<tr>
 					<th>User</th>
 					<th>Coffee</th>

@@ -51,9 +51,11 @@ module.exports = {
             req.session.user = user;
 
             user.save(function() {
-              delete req.session.coffee;
-              delete req.session.location;
-
+              var socket = req.socket;
+              var io = sails.io;
+              io.sockets.emit('order-made', {
+                order: order
+              })
               res.redirect('/user/order');
             });
           });

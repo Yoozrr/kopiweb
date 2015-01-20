@@ -5,7 +5,7 @@
 	<% 	if(orders.length > 0) {
 	%>
 			<h4><%= user.name %> has ordered <%= orders.length %> coffee<%= (orders.length === 1) ? '' : 's' %>.</h4>
-			<table class="table">
+			<table class="table admin-order-show" user-id="<%= user.id %>">
 				<tr>
 					<th>Coffee</th>
 					<th>Store</th>
