@@ -20,7 +20,7 @@
 					<td><%= order.coffee.category %></td>
 					<td><%= order.location.name %></td>
 					<td><%= order.location.address %></td>
-					<td><%= order.status  %></td>
+					<td order-id="<%= order.id %>"><%= order.status  %></td>
 				</tr>
 		<%	}) 
 		%>

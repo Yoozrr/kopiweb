@@ -9,9 +9,15 @@ module.exports = {
   index: function(req, res) {
     Order.find(function found(err, orders) {
       if (err) return next(err);
-
+      var status = [
+        'Submitted',
+        'Received',
+        'Completed',
+        'Canceled'
+      ];
       res.view({
-        orders: orders
+        orders: orders,
+        status: status
       });
     })
   },
@@ -71,10 +77,22 @@ module.exports = {
       if (_.contains(status, req.param('status'))) {
         order.status = req.param('status');
         order.save(function(err) {
-          return;
+          if (err) return console.log(err);
+
+          var socket = req.socket;
+          var io = sails.io;
+
+          io.sockets.emit('message', {
+            id: order.id,
+            status: order.status
+          })
+          return res.send({
+            success: true
+          });
         });
+      } else {
+        return console.log(err);
       }
-      return;
     });
 
   }

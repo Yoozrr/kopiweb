@@ -7,21 +7,37 @@
 			<h4>You have ordered <%= orders.length %> coffee<%= (orders.length === 1) ? '' : 's' %>.</h4>
 			<table class="table">
 				<tr>
+					<th>User</th>
 					<th>Coffee</th>
-					<th>Type</th>
 					<th>Store</th>
 					<th>Status</th>
 				</tr>
 		<% 	_.each(orders, function(order){
 		%>
 				<tr>
-					<td><%= order.coffee.name %></td>
-					<td><%= order.coffee.category %></td>
+					<td><%= order.user.name %></td>
+					<td>
+						<p><b><%= order.coffee.name %></b></p>
+						<p><small><%= order.coffee.category %></small></p>
+					</td>
 					<td>
 						<p><b><%= order.location.name %></b><p>
 						<p><small><%= order.location.address %></small><p>
 					</td>
-					<td><%= order.status  %></td>
+					<td>
+						<select name="order-status" order-id="<%= order.id %>" class="form-control">
+					<% 	_.each(status, function(name){
+							if (name === order.status){
+					%>
+								<option value="<%= name %>" selected><%= name %></option>
+					<%		} else {
+					%>
+								<option value="<%= name %>"><%= name %></option>
+					<%		}
+						});
+					%>
+						</select>
+					</td>
 				</tr>
 		<%	}) 
 		%>

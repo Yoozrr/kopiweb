@@ -38,34 +38,9 @@ $(document).ready(function() {
     },
 
     success: function(element) {
-      element.text('OK!').addClass('valid');
+      element.addClass('valid');
     }
   });
-
-
-  // $('.form-edit').validate({
-  //   rules: {
-  //     name: {
-  //       required: true
-  //     },
-  //     email: {
-  //       required: true,
-  //       email: true
-  //     }
-  //   },
-
-  //   success: function(element) {
-  //     element.text('OK!').addClass('valid');
-  //   }
-  // });
-  io.socket.on('connect', function() {
-    console.log('sockect connect');
-
-    io.socket.on('message', function(msg) {
-      console.log(msg)
-    })
-  });
-
 
 
 });

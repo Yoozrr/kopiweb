@@ -185,16 +185,35 @@
   }
 
   $('select[name="order-status"').change(function(val) {
-    console.log(this.value);
+
     var url = "/order/update/" + $(this).attr('order-id');
+
+    console.log(this.value);
     console.log(this);
     console.log(url);
+
+    var col = $(this).parent();
+    if (col.find('p').length === 0) {
+      col.append('<p>Saving...</p>');
+    }
+
     $.post(url, {
       status: this.value
-    })
-      .done(function(data) {
-        alert("updated");
-      });
-  })
+    }).done(function(data) {
+      console.log(data)
+      console.log(data)
+      console.log(data)
+      console.log(data)
+      col.find('p').remove();
+    });
+  });
 
+  io.socket.on('connect', function() {
+    console.log('sockect connect');
+
+    io.socket.on('message', function(msg) {
+      console.log(msg)
+      $('td[order-id="' + msg.id + '"]').text(msg.status);
+    })
+  });
 })();

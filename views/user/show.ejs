@@ -8,15 +8,16 @@
 			<table class="table">
 				<tr>
 					<th>Coffee</th>
-					<th>Type</th>
 					<th>Store</th>
 					<th>Status</th>
 				</tr>
 		<% 	_.each(orders, function(order){
 		%>
 				<tr>
-					<td><%= order.coffee.name %></td>
-					<td><%= order.coffee.category %></td>
+					<td>
+						<p><b><%= order.coffee.name %></b></p>
+						<p><small><%= order.coffee.category %></small></p>
+					</td>
 					<td>
 						<p><b><%= order.location.name %></b><p>
 						<p><small><%= order.location.address %></small><p>
@@ -33,7 +34,8 @@
 					<%		}
 						});
 					%>
-						</select></td>
+						</select>
+					</td>
 				</tr>
 		<%	}) 
 		%>
