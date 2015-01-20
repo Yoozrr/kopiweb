@@ -31,13 +31,13 @@
     %>
     <%  if (session.user.hasOrdered) { 
     %>
-            <li><a href="/user/order">Your order</a></li>
+            <li><a href="/user/order">My order</a></li>
     <%  } 
     %>
     <%  if (session.user.admin) { 
     %>
-            <li><a href="/order">View orders</a></li>
-            <li><a href="/user">View users</a></li>
+            <li><a href="/order">Orders</a></li>
+            <li><a href="/user">Users</a></li>
     <%  } 
     %>
             <li><a href="/user/logout">Logout</a></li>
